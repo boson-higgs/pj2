@@ -16,13 +16,13 @@ namespace MotoGP
             Zavodnici = new BindingList<Zavodnik>();
         }
 
-        public void Pridej(string jmeno, string prijmeni, int cislo, string tym, bool tovarnitym)
+        public void Pridej(string jmeno, string prijmeni, int cislo, string tym, bool tovarni_tym)
         {
             if (cislo < 1 & cislo > 99)
             {
                 throw new ArgumentException("Pravidla umožňují závodní čísla v rozsahu 1 až 99");
             }
-            Zavodnik zavodnik = new Zavodnik(jmeno, prijmeni, cislo, tym, tovarnitym);
+            Zavodnik zavodnik = new Zavodnik(jmeno, prijmeni, cislo, tym, tovarni_tym);
             Zavodnici.Add(zavodnik);
         }
 

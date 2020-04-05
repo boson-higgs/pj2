@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<jezdci>
+  <jezdec cislo="46">
+    <jmeno>Valentino</jmeno>
+    <prijmeni>Rossi</prijmeni>
+    <tym>Monster Yamaha</tym>
+    <tovarni_tym>True</tovarni_tym>
+  </jezdec>
+  <jezdec cislo="73">
+    <jmeno>Alex</jmeno>
+    <prijmeni>Marquez</prijmeni>
+    <tym>Repsol Honda</tym>
+    <tovarni_tym>True</tovarni_tym>
+  </jezdec>
+  <jezdec cislo="21">
+    <jmeno>Franco</jmeno>
+    <prijmeni>Morbidelli</prijmeni>
+    <tym>Petronas Yamaha</tym>
+    <tovarni_tym>False</tovarni_tym>
+  </jezdec>
+  <jezdec cislo="25">
+    <jmeno>Maverick</jmeno>
+    <prijmeni>Vinales</prijmeni>
+    <tym>Monster Yamaha</tym>
+    <tovarni_tym>True</tovarni_tym>
+  </jezdec>
+</jezdci>

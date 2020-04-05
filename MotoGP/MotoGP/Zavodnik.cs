@@ -14,13 +14,13 @@ namespace MotoGP
         public string Tym { get; set; }
         public bool TovarniTym { get; set; }
 
-        public Zavodnik(string jmeno, string prijmeni, int cislo, string tym, bool tovarnitym)
+        public Zavodnik(string jmeno, string prijmeni, int cislo, string tym, bool tovarni_tym)
         {
             Jmeno = jmeno;
             Prijmeni = prijmeni;
             Cislo = cislo;
             Tym = tym;
-            TovarniTym = tovarnitym;
+            TovarniTym = tovarni_tym;
         }
 
         public override string ToString()

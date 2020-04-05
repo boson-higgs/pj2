@@ -8,3 +8,13 @@ c:\users\admin\documents\visual studio 2015\Projects\MotoGP\MotoGP\obj\Debug\Mot
 c:\users\admin\documents\visual studio 2015\Projects\MotoGP\MotoGP\obj\Debug\MotoGP.csproj.GenerateResource.Cache
 c:\users\admin\documents\visual studio 2015\Projects\MotoGP\MotoGP\obj\Debug\MotoGP.exe
 c:\users\admin\documents\visual studio 2015\Projects\MotoGP\MotoGP\obj\Debug\MotoGP.pdb
+C:\Users\Admin\Desktop\GitHub\pj2\MotoGP\MotoGP\bin\Debug\MotoGP.exe.config
+C:\Users\Admin\Desktop\GitHub\pj2\MotoGP\MotoGP\obj\Debug\MotoGP.exe
+C:\Users\Admin\Desktop\GitHub\pj2\MotoGP\MotoGP\obj\Debug\MotoGP.pdb
+C:\Users\Admin\Desktop\GitHub\pj2\MotoGP\MotoGP\bin\Debug\MotoGP.exe
+C:\Users\Admin\Desktop\GitHub\pj2\MotoGP\MotoGP\bin\Debug\MotoGP.pdb
+C:\Users\Admin\Desktop\GitHub\pj2\MotoGP\MotoGP\obj\Debug\MotoGP.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\GitHub\pj2\MotoGP\MotoGP\obj\Debug\MotoGP.DetailJezdceForm.resources
+C:\Users\Admin\Desktop\GitHub\pj2\MotoGP\MotoGP\obj\Debug\MotoGP.MainForm.resources
+C:\Users\Admin\Desktop\GitHub\pj2\MotoGP\MotoGP\obj\Debug\MotoGP.Properties.Resources.resources
+C:\Users\Admin\Desktop\GitHub\pj2\MotoGP\MotoGP\obj\Debug\MotoGP.csproj.GenerateResource.Cache

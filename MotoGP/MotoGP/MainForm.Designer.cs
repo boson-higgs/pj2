@@ -32,13 +32,14 @@
             this.delete = new System.Windows.Forms.Button();
             this.list = new System.Windows.Forms.ListBox();
             this.export = new System.Windows.Forms.Button();
+            this.import = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // add
             // 
-            this.add.Location = new System.Drawing.Point(226, 44);
+            this.add.Location = new System.Drawing.Point(245, 44);
             this.add.Name = "add";
-            this.add.Size = new System.Drawing.Size(133, 39);
+            this.add.Size = new System.Drawing.Size(114, 44);
             this.add.TabIndex = 0;
             this.add.Text = "Přidat jezdce";
             this.add.UseVisualStyleBackColor = true;
@@ -46,9 +47,9 @@
             // 
             // delete
             // 
-            this.delete.Location = new System.Drawing.Point(226, 113);
+            this.delete.Location = new System.Drawing.Point(245, 103);
             this.delete.Name = "delete";
-            this.delete.Size = new System.Drawing.Size(133, 42);
+            this.delete.Size = new System.Drawing.Size(114, 41);
             this.delete.TabIndex = 1;
             this.delete.Text = "Odebrat jezdce";
             this.delete.UseVisualStyleBackColor = true;
@@ -65,18 +66,30 @@
             // 
             // export
             // 
-            this.export.Location = new System.Drawing.Point(226, 185);
+            this.export.Location = new System.Drawing.Point(245, 163);
             this.export.Name = "export";
-            this.export.Size = new System.Drawing.Size(133, 45);
+            this.export.Size = new System.Drawing.Size(114, 42);
             this.export.TabIndex = 3;
             this.export.Text = "Export do XML";
             this.export.UseVisualStyleBackColor = true;
+            this.export.Click += new System.EventHandler(this.export_Click);
+            // 
+            // import
+            // 
+            this.import.Location = new System.Drawing.Point(245, 225);
+            this.import.Name = "import";
+            this.import.Size = new System.Drawing.Size(114, 45);
+            this.import.TabIndex = 4;
+            this.import.Text = "Import XML";
+            this.import.UseVisualStyleBackColor = true;
+            this.import.Click += new System.EventHandler(this.import_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(376, 298);
+            this.Controls.Add(this.import);
             this.Controls.Add(this.export);
             this.Controls.Add(this.list);
             this.Controls.Add(this.delete);
@@ -93,6 +106,7 @@
         private System.Windows.Forms.Button delete;
         private System.Windows.Forms.ListBox list;
         private System.Windows.Forms.Button export;
+        private System.Windows.Forms.Button import;
     }
 }
 
