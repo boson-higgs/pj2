@@ -31,20 +31,16 @@ namespace MotoGP
             Zavodnici.Remove(zavodnik);
         }
 
-       /* public void Edituj(Zavodnik zavodnik)
-        {
-            Zavodnici.
-        }*/
 
-        /*public Evidence SeradPodleCisla()
-        {
-            return Zavodnici.OrderBy(cislo);
-        }*/
+        /*public void SeradPodleCisla()
+         {
+             Zavodnici.OrderBy(o => Zavodnik.Cislo).ToList();
+         } 
 
-        /*public Evidence Zobraz (Zavodnik zavodnik)
-        {
-            return zavodnik;
-        }*/
-        
+         public void SeradPodlePrijmeni()
+         {
+             Zavodnici.OrderBy(o => Zavodnik.Prijmeni).ToList();
+         }*/
+
     }
 }

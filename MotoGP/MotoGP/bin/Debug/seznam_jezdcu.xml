@@ -22,6 +22,6 @@
     <jmeno>Maverick</jmeno>
     <prijmeni>Vinales</prijmeni>
     <tym>Monster Yamaha</tym>
-    <tovarni_tym>True</tovarni_tym>
+    <tovarni_tym>False</tovarni_tym>
   </jezdec>
 </jezdci>
