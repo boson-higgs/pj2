@@ -23,16 +23,6 @@ namespace MotoGP
             TovarniTym = tovarni_tym;
         }
 
-        public void Edituj(string e_jmeno, string e_prijmeni, int e_cislo, string e_tym, bool e_tovarni_tym)
-        {
-            this.Jmeno = e_jmeno;
-            this.Prijmeni = e_prijmeni;
-            this.Cislo = e_cislo;
-            this.Tym = e_tym;
-            this.TovarniTym = e_tovarni_tym;
-        }
-
-
         public override string ToString()
         {
             return Jmeno + " " + Prijmeni + " " + " | " + " " + Cislo;

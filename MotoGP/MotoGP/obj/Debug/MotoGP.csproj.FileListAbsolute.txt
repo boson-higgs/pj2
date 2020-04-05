@@ -18,4 +18,3 @@ C:\Users\Admin\Desktop\GitHub\pj2\MotoGP\MotoGP\obj\Debug\MotoGP.DetailJezdceFor
 C:\Users\Admin\Desktop\GitHub\pj2\MotoGP\MotoGP\obj\Debug\MotoGP.MainForm.resources
 C:\Users\Admin\Desktop\GitHub\pj2\MotoGP\MotoGP\obj\Debug\MotoGP.Properties.Resources.resources
 C:\Users\Admin\Desktop\GitHub\pj2\MotoGP\MotoGP\obj\Debug\MotoGP.csproj.GenerateResource.Cache
-C:\Users\Admin\Desktop\GitHub\pj2\MotoGP\MotoGP\obj\Debug\MotoGP.DetailJezdceEditaceForm.resources

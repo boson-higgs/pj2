@@ -33,8 +33,6 @@
             this.list = new System.Windows.Forms.ListBox();
             this.export = new System.Windows.Forms.Button();
             this.import = new System.Windows.Forms.Button();
-            this.sortbynumber = new System.Windows.Forms.Button();
-            this.orderbysurname = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // add
@@ -60,7 +58,7 @@
             // list
             // 
             this.list.FormattingEnabled = true;
-            this.list.Location = new System.Drawing.Point(12, 84);
+            this.list.Location = new System.Drawing.Point(12, 44);
             this.list.Name = "list";
             this.list.Size = new System.Drawing.Size(179, 186);
             this.list.TabIndex = 2;
@@ -86,33 +84,11 @@
             this.import.UseVisualStyleBackColor = true;
             this.import.Click += new System.EventHandler(this.import_Click);
             // 
-            // sortbynumber
-            // 
-            this.sortbynumber.Location = new System.Drawing.Point(12, 12);
-            this.sortbynumber.Name = "sortbynumber";
-            this.sortbynumber.Size = new System.Drawing.Size(127, 26);
-            this.sortbynumber.TabIndex = 5;
-            this.sortbynumber.Text = "Setřídit podle čísla";
-            this.sortbynumber.UseVisualStyleBackColor = true;
-            this.sortbynumber.Click += new System.EventHandler(this.sortbynumber_Click);
-            // 
-            // orderbysurname
-            // 
-            this.orderbysurname.Location = new System.Drawing.Point(12, 44);
-            this.orderbysurname.Name = "orderbysurname";
-            this.orderbysurname.Size = new System.Drawing.Size(127, 34);
-            this.orderbysurname.TabIndex = 6;
-            this.orderbysurname.Text = "Setřídit podle příjmení";
-            this.orderbysurname.UseVisualStyleBackColor = true;
-            this.orderbysurname.Click += new System.EventHandler(this.orderbysurname_Click);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(376, 298);
-            this.Controls.Add(this.orderbysurname);
-            this.Controls.Add(this.sortbynumber);
             this.Controls.Add(this.import);
             this.Controls.Add(this.export);
             this.Controls.Add(this.list);
@@ -131,8 +107,6 @@
         private System.Windows.Forms.ListBox list;
         private System.Windows.Forms.Button export;
         private System.Windows.Forms.Button import;
-        private System.Windows.Forms.Button sortbynumber;
-        private System.Windows.Forms.Button orderbysurname;
     }
 }
 
