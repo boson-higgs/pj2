@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml;
 
+
 namespace MotoGP
 {
     public partial class MainForm : Form
@@ -41,9 +42,8 @@ namespace MotoGP
             if(list.SelectedItem != null)
             {
                 Zavodnik vybrany = (Zavodnik)list.SelectedItem;
-                //Evidence seznam = evidence.Zobraz();
-               // DetailJezdceForm detailJezdceForm = new DetailJezdceForm(seznam);
-                //detailJezdceForm.ShowDialog();
+                DetailJezdceEditaceForm detailJezdceEditaceForm = new DetailJezdceEditaceForm(vybrany);
+                detailJezdceEditaceForm.ShowDialog();
             }
         }
 
@@ -122,6 +122,16 @@ namespace MotoGP
                     }
                 }
             }
+        }
+
+        private void sortbynumber_Click(object sender, EventArgs e)
+        {
+           // evidence.SeradPodleCisla();
+        }
+
+        private void orderbysurname_Click(object sender, EventArgs e)
+        {
+            // evidence.SeradPodlePrijmeni();
         }
     }
 }
